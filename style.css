@@ -1,0 +1,40 @@
+body{
+    font-family: Indie Flower;
+   font-size: larger;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.835171568627451) 50%, rgba(252,176,69,1) 100%);
+   
+}
+
+.quizContainer{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 3%;
+    background: #fff0f0ce;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: xx-large;
+}
+.question{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.Reponses{
+    width: 90%;
+}
+option{
+  
+    padding: 3%;
+    margin: 7%;
+    border-radius: 20px;
+    background-color:#fae3e3;
+}
+
